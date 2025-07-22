@@ -60,7 +60,7 @@ const Hero = () => {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
-                <a href="mailto:mpho.maphalle@email.com">
+                <a href="mailto:mpho.maphalle@gmail.com">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
