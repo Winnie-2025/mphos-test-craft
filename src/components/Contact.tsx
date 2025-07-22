@@ -14,8 +14,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+27 XX XXX XXXX",
-      href: "tel:+27XXXXXXXXX"
+      value: "061 371 6818",
+      href: "tel:+27613716818"
     },
     {
       icon: MapPin,
@@ -29,13 +29,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/mpho-maphalle",
+      href: "https://www.linkedin.com/in/mpho-maphalle-7649306b",
       color: "text-blue-600"
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/mpho-maphalle",
+      href: "https://github.com/maphal-2025",
       color: "text-gray-800"
     }
   ];

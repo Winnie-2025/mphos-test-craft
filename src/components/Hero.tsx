@@ -49,14 +49,20 @@ const Hero = () => {
             
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform">
-                <Github className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
+                <a href="https://github.com/maphal-2025" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-5 w-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform">
-                <Linkedin className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
+                <a href="https://www.linkedin.com/in/mpho-maphalle-7649306b" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform">
-                <Mail className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
+                <a href="mailto:mpho.maphalle@email.com">
+                  <Mail className="h-5 w-5" />
+                </a>
               </Button>
             </div>
           </div>
