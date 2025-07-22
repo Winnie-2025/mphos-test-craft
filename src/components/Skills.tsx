@@ -70,6 +70,18 @@ const Skills = () => {
       issuer: "PLP Academy",
       date: "In Progress",
       type: "Quality Assurance"
+    },
+    {
+      name: "Introduction to Cybersecurity",
+      issuer: "Cisco Network Academy",
+      date: "April 2020",
+      type: "Cybersecurity"
+    },
+    {
+      name: "Certified Network Security Specialist",
+      issuer: "ICSI",
+      date: "Completed",
+      type: "Network Security"
     }
   ];
 
