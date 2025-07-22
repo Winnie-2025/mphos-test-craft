@@ -80,7 +80,7 @@ const Skills = () => {
     {
       name: "Certified Network Security Specialist",
       issuer: "ICSI",
-      date: "Completed",
+      date: "June 2020",
       type: "Network Security"
     }
   ];
