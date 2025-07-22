@@ -61,13 +61,27 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Visual Element */}
-          <div className="relative">
-            <div className="w-80 h-80 mx-auto bg-gradient-to-br from-primary to-tech-purple rounded-full opacity-20 animate-pulse" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl font-bold text-primary mb-2">3+</div>
-                <div className="text-lg text-muted-foreground">Years Experience</div>
+          {/* Profile Picture */}
+          <div className="relative flex justify-center">
+            <div className="relative group">
+              {/* Animated background ring */}
+              <div className="absolute -inset-4 bg-gradient-to-r from-primary to-tech-purple rounded-full opacity-20 group-hover:opacity-30 animate-pulse transition-opacity duration-300" />
+              
+              {/* Profile Image */}
+              <div className="relative w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl group-hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/lovable-uploads/1b4caea4-740f-490f-a252-fa3617d7e526.png" 
+                  alt="Mpho Maphalle - Software Testing Specialist"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              
+              {/* Experience Badge */}
+              <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full shadow-lg">
+                <div className="text-center">
+                  <div className="text-lg font-bold">3+</div>
+                  <div className="text-xs">Years</div>
+                </div>
               </div>
             </div>
           </div>
