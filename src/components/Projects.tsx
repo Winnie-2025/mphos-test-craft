@@ -57,13 +57,13 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-24 bg-gradient-to-br from-muted/20 to-tech-orange/5">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <Badge variant="outline" className="mb-4">
-            Projects & Testing Portfolio
+        <div className="text-center mb-20">
+          <Badge variant="premium" className="mb-6 text-base">
+            🚀 Projects & Testing Portfolio
           </Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 gradient-text">
             Quality Assurance Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -73,9 +73,9 @@ const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid lg:grid-cols-3 gap-8 mb-20">
           {projects.map((project, index) => (
-            <Card key={index} className="hover:shadow-lg transition-all duration-300 group">
+            <Card key={index} className="floating-card group cursor-pointer">
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
                   <project.icon className={`h-6 w-6 ${project.color}`} />

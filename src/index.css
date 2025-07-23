@@ -8,55 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Modern Professional Color Palette */
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    /* Bright Modern Color Palette */
+    --background: 0 0% 100%;
+    --foreground: 220 15% 15%;
 
-    --card: 240 10% 5.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 15%;
 
-    --popover: 240 10% 5.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 15%;
 
-    /* Premium Gold & Blue Palette */
-    --primary: 43 96% 67%;
-    --primary-foreground: 240 10% 3.9%;
-    --primary-glow: 43 96% 77%;
+    /* Vibrant Color Scheme */
+    --primary: 280 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 280 100% 70%;
 
-    --secondary: 240 4.8% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 220 15% 95%;
+    --secondary-foreground: 220 15% 15%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 220 10% 96%;
+    --muted-foreground: 220 10% 45%;
 
-    --accent: 217 91% 60%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 200 100% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    /* Premium Tech Colors */
-    --tech-blue: 217 91% 60%;
-    --tech-green: 142 76% 36%;
-    --tech-purple: 262 83% 58%;
-    --tech-gold: 43 96% 67%;
+    /* Vibrant Tech Colors */
+    --tech-blue: 200 100% 55%;
+    --tech-green: 160 100% 40%;
+    --tech-purple: 280 100% 60%;
+    --tech-orange: 30 100% 60%;
     
-    /* Beautiful Gradients */
+    /* Bright Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--tech-purple)) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--tech-purple)) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(240 10% 5.9%) 0%, hsl(240 8% 8%) 100%);
-    --gradient-subtle: linear-gradient(135deg, hsl(240 10% 3.9%) 0%, hsl(240 8% 6%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--tech-green)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--tech-orange)) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(220 10% 98%) 100%);
+    --gradient-subtle: linear-gradient(135deg, hsl(220 10% 98%) 0%, hsl(0 0% 100%) 100%);
     
-    /* Premium Shadows */
-    --shadow-elegant: 0 25px 50px -12px hsl(var(--primary) / 0.25);
-    --shadow-glow: 0 0 60px hsl(var(--primary) / 0.4);
-    --shadow-premium: 0 20px 25px -5px hsl(0 0% 0% / 0.1), 0 10px 10px -5px hsl(0 0% 0% / 0.04);
-    --shadow-card: 0 10px 30px -5px hsl(0 0% 0% / 0.3);
+    /* Modern Shadows */
+    --shadow-elegant: 0 4px 20px -2px hsl(var(--primary) / 0.25);
+    --shadow-glow: 0 0 30px hsl(var(--primary) / 0.3);
+    --shadow-premium: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+    --shadow-card: 0 2px 8px -1px hsl(0 0% 0% / 0.08);
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 43 96% 67%;
+    --border: 220 15% 90%;
+    --input: 220 15% 95%;
+    --ring: 280 100% 60%;
 
     --radius: 0.75rem;
 
@@ -77,42 +77,42 @@ All colors MUST be HSL.
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
-  .light {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 220 15% 10%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 43 96% 56%;
+    --primary: 280 100% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
+    --secondary: 220 15% 15%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 220 15% 15%;
+    --muted-foreground: 220 10% 60%;
 
-    --accent: 217 91% 60%;
+    --accent: 200 100% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 43 96% 56%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 280 100% 60%;
+    --sidebar-background: 220 15% 12%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 280 100% 60%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 220 15% 18%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 220 15% 20%;
+    --sidebar-ring: 280 100% 60%;
   }
 }
 
@@ -122,8 +122,8 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-light antialiased;
-    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(240 8% 6%) 100%);
+    @apply bg-background text-foreground font-normal antialiased;
+    background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(220 10% 98%) 100%);
     min-height: 100vh;
   }
 
@@ -144,20 +144,20 @@ All colors MUST be HSL.
     @apply bg-primary/50;
   }
 
-  /* Premium Glass Effect */
+  /* Modern Glass Effect */
   .glass-effect {
-    backdrop-filter: blur(16px) saturate(180%);
-    background: hsl(var(--card) / 0.8);
-    border: 1px solid hsl(var(--border) / 0.5);
+    backdrop-filter: blur(8px) saturate(120%);
+    background: hsl(var(--card) / 0.9);
+    border: 1px solid hsl(var(--border) / 0.8);
   }
 
-  /* Professional Animations */
+  /* Smooth Animations */
   .smooth-transition {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.2s ease-out;
   }
 
   .hover-lift:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     box-shadow: var(--shadow-elegant);
   }
 
@@ -167,9 +167,20 @@ All colors MUST be HSL.
   }
 
   .gradient-text {
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 50%, hsl(var(--tech-orange)) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  /* Modern Floating Cards */
+  .floating-card {
+    @apply bg-card border border-border/50 shadow-card hover:shadow-elegant transition-all duration-200;
+  }
+
+  /* Bright Accent Colors */
+  .accent-purple { @apply text-tech-purple; }
+  .accent-blue { @apply text-tech-blue; }
+  .accent-green { @apply text-tech-green; }
+  .accent-orange { @apply text-tech-orange; }
 }
