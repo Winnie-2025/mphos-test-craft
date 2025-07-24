@@ -71,9 +71,11 @@ const Hero = () => {
           {/* Profile Picture */}
           <div className="relative flex justify-center">
             <div className="relative group">
-              {/* Modern floating rings */}
-              <div className="absolute -inset-6 bg-gradient-to-r from-primary/20 via-accent/20 to-tech-orange/20 rounded-full opacity-50 group-hover:opacity-70 animate-spin transition-opacity duration-300" style={{ animationDuration: '10s' }} />
-              <div className="absolute -inset-4 bg-gradient-to-r from-tech-orange/20 via-primary/20 to-accent/20 rounded-full opacity-30 group-hover:opacity-50 animate-spin transition-opacity duration-300" style={{ animationDuration: '8s', animationDirection: 'reverse' }} />
+              {/* Cycling animated rings */}
+              <div className="absolute -inset-8 bg-gradient-to-r from-primary/30 via-accent/30 to-tech-orange/30 rounded-full opacity-60 group-hover:opacity-80 animate-spin transition-opacity duration-300" style={{ animationDuration: '12s' }} />
+              <div className="absolute -inset-6 bg-gradient-to-r from-tech-orange/25 via-primary/25 to-accent/25 rounded-full opacity-40 group-hover:opacity-60 animate-spin transition-opacity duration-300" style={{ animationDuration: '10s', animationDirection: 'reverse' }} />
+              <div className="absolute -inset-4 bg-gradient-to-r from-accent/20 via-tech-orange/20 to-primary/20 rounded-full opacity-30 group-hover:opacity-50 animate-spin transition-opacity duration-300" style={{ animationDuration: '8s' }} />
+              <div className="absolute -inset-2 bg-gradient-to-r from-primary/15 via-accent/15 to-tech-orange/15 rounded-full opacity-25 group-hover:opacity-40 animate-spin transition-opacity duration-300" style={{ animationDuration: '6s', animationDirection: 'reverse' }} />
               
               {/* Profile Image */}
               <div className="relative w-80 h-80 mx-auto rounded-3xl overflow-hidden border-4 border-primary/20 shadow-premium group-hover:scale-[1.02] transition-transform duration-300 bg-card">

@@ -6,6 +6,21 @@ import { ExternalLink, Github, TestTube, Code, Bug, CheckCircle } from "lucide-r
 const Projects = () => {
   const projects = [
     {
+      title: "Farmers Chatbot",
+      type: "GitHub Project",
+      description: "AI-powered chatbot designed to assist farmers with agricultural queries, crop management, and farming best practices.",
+      technologies: ["Python", "NLP", "Machine Learning", "Flask"],
+      features: [
+        "Agricultural knowledge base",
+        "Natural language processing",
+        "Crop recommendation system",
+        "Weather integration"
+      ],
+      icon: Code,
+      color: "text-tech-green",
+      github: "https://github.com/maphal/2025/farners_Chatbot"
+    },
+    {
       title: "E-Commerce Testing Suite",
       type: "Testing Project",
       description: "Comprehensive testing framework for an e-commerce application including functional, performance, and security testing.",
@@ -17,7 +32,7 @@ const Projects = () => {
         "Cross-browser compatibility"
       ],
       icon: TestTube,
-      color: "text-tech-green"
+      color: "text-tech-orange"
     },
     {
       title: "Banking App Quality Assurance",
@@ -114,9 +129,11 @@ const Projects = () => {
                 
                 {/* Action Buttons */}
                 <div className="flex gap-2 pt-4">
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <Github className="h-4 w-4 mr-2" />
-                    Code
+                  <Button variant="outline" size="sm" className="flex-1" asChild>
+                    <a href={project.github || "#"} target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
                   </Button>
                   <Button variant="outline" size="sm" className="flex-1">
                     <ExternalLink className="h-4 w-4 mr-2" />
