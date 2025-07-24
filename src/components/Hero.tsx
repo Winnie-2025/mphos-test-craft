@@ -78,13 +78,13 @@ const Hero = () => {
               <div className="absolute -inset-2 bg-gradient-to-r from-primary/15 via-accent/15 to-tech-orange/15 rounded-full opacity-25 group-hover:opacity-40 animate-spin transition-opacity duration-300" style={{ animationDuration: '6s', animationDirection: 'reverse' }} />
               
               {/* Profile Image */}
-              <div className="relative w-80 h-80 mx-auto rounded-3xl overflow-hidden border-4 border-primary/20 shadow-premium group-hover:scale-[1.02] transition-transform duration-300 bg-card">
+              <div className="relative w-80 h-80 mx-auto rounded-full overflow-hidden group-hover:scale-[1.02] transition-transform duration-300">
                 <img 
                   src="/lovable-uploads/1b4caea4-740f-490f-a252-fa3617d7e526.png" 
                   alt="Mpho Maphalle - Software Testing Specialist"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full" />
               </div>
               
               {/* Experience Badge */}
